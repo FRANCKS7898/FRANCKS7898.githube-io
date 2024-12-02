@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Legacy Armony</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2em;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2em 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Pixel Legacy Armony</h1>
+        <p>Un lugar para experimentar ideas y creatividad</p>
+    </header>
+
+    <nav>
+        <a href="#galeria">Galería</a>
+        <a href="#tabla">Tabla de Datos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+            <div class="gallery">
+                <img src="C:/Users/fredy/OneDrive/Escritorio/Trabajo/calacas xd.png" alt="Imagen 1">
+                <img src="C:/Users/fredy/OneDrive/Escritorio/Trabajo/Rata.png" alt="Imagen 2">
+                <img src="C:/Users/fredy/OneDrive/Escritorio/Trabajo/Diva.png" alt="Imagen 3">
+            </div>
+        </section>
+
+        <section id="tabla">
+            <h2>Tabla de Datos Random</h2>
+            <table>
+                <tr>
+                    <th>Elemento</th>
+                    <th>Descripción</th>
+                    <th>Fecha</th>
+                </tr>
+                <tr>
+                    <td>La caminata de la muerte</td>
+                    <td>Nos la pelaron con el disfraz</td>
+                    <td>Dia de muertos</td>
+                </tr>
+                <tr>
+                    <td>Ratatouille</td>
+                    <td>Rata gourmet</td>
+                    <td>Solo recuerdo que era de noche</td>
+                </tr>
+                <tr>
+                    <td>La diva de Margaritas</td>
+                    <td>Yo debi ser la reina :(</td>
+                    <td>Sepa, andaba aburrido</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre"><br><br>
+                <label for="correo">Correo Electrónico:</label><br>
+                <input type="email" id="correo" name="correo" placeholder="Tu correo"><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tu mensaje"></textarea><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Freddy technologies. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
